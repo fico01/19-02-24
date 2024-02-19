@@ -6,5 +6,5 @@ export const exibirHorario = (e) => {
     let horarioFormatado = hora + ":" + minuto + ":" + segundo;
     console.clear();
     console.log(horarioFormatado);
-    document.getElementById("Ink").innerText = horarioFormatado;
+    document.getElementById("lnk").innerText = horarioFormatado;
 }
